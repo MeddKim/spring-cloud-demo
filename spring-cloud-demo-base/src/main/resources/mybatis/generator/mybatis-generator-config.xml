@@ -74,6 +74,8 @@
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false">
+            <!--设置实体类的字段名和数据表的字段名相同-->
+            <!--<property name="useActualColumnNames" value="true"/>-->
         </table>
         <table tableName="sys_app" domainObjectName="Organization"
                enableCountByExample="false" enableUpdateByExample="false"
