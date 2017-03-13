@@ -1,7 +1,7 @@
 package com.cloud.base;
 
-import com.cloud.base.domain.User;
 import com.cloud.base.mapper.UserMapper;
+import com.cloud.base.domain.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
