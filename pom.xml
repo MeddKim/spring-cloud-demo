@@ -14,11 +14,20 @@
     <version>1.5.2.RELEASE</version>
   </parent>
 
-  <dependencies>
-
-  </dependencies>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>Camden.SR6</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
   <modules>
     <module>spring-cloud-demo-base</module>
+    <module>spring-cloud-demo-eureka</module>
   </modules>
 </project>
