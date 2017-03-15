@@ -8,10 +8,11 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
   <groupId>spring.cloud-demo</groupId>
-  <artifactId>spring-cloud-demo-eureka</artifactId>
+  <artifactId>spring-cloud-demo-base-eureka-client</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>spring-cloud-demo-eureka</name>
+  <name>spring-cloud-demo-base-eureka-client</name>
   <url>http://maven.apache.org</url>
+
   <dependencies>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
@@ -19,7 +20,16 @@
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-eureka</artifactId>
+      <artifactId>spring-cloud-starter-eureka-server</artifactId>
     </dependency>
   </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
 </project>

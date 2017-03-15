@@ -16,6 +16,7 @@
 
   <dependencyManagement>
     <dependencies>
+      <!--spring cloud依赖-->
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-dependencies</artifactId>
@@ -28,6 +29,7 @@
 
   <modules>
     <module>spring-cloud-demo-base</module>
-    <module>spring-cloud-demo-eureka</module>
+    <module>spring-cloud-demo-eureka-server</module>
+    <module>spring-cloud-demo-base-eureka-client</module>
   </modules>
 </project>
