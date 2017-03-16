@@ -8,28 +8,32 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
   <groupId>spring.cloud-demo</groupId>
-  <artifactId>spring-cloud-demo-base-eureka-client</artifactId>
+  <artifactId>spring-cloud-demo-eureka-ribbon</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>spring-cloud-demo-base-eureka-client</name>
+  <name>spring-cloud-demo-eureka-ribbon</name>
   <url>http://maven.apache.org</url>
-
   <dependencies>
+    <!--使用ribbon实现服务消费及负载均衡-->
     <dependency>
       <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-config</artifactId>
+      <artifactId>spring-cloud-starter-ribbon</artifactId>
+    </dependency>
+    <!--断路器-->
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-hystrix</artifactId>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-eureka-server</artifactId>
+      <artifactId>spring-cloud-starter-eureka</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
     </dependency>
   </dependencies>
-
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-      </plugin>
-    </plugins>
-  </build>
 </project>
