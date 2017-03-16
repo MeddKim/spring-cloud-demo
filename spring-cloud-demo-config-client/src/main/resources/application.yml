@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: didispace
+    profile: dev
+    label: master
+    uri: https://localhost:8881/
+
+server:
+  port: 8882
