@@ -1,0 +1,19 @@
+spring:
+#  profiles:
+#    active: native  配置本地配置文件位置 默認src/main/resource目录下检索
+  application:
+    name: conig-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://
+          search-paths: chang
+          username: meddkim
+          password: wzy19920323
+#        native:
+#          search-locations: file:F:/properties 使用本地文件位置
+
+server:
+  port: 8881
+

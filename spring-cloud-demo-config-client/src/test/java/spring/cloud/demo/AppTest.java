@@ -1,4 +1,4 @@
-package spring.cloud-demo;
+package spring.cloud.demo-demo;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

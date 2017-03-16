@@ -1,4 +1,4 @@
-package spring.cloud-demo;
+package spring.cloud.demo-demo;
 
 /**
  * Hello world!
