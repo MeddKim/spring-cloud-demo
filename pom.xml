@@ -35,5 +35,6 @@
     <module>spring-cloud-demo-eureka-feign</module>
     <module>spring-cloud-demo-config-server</module>
     <module>spring-cloud-demo-config-client</module>
+    <module>spring-cloud-demo-api-gateway</module>
   </modules>
 </project>
