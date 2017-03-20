@@ -26,7 +26,6 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-
   <modules>
     <module>spring-cloud-demo-base</module>
     <module>spring-cloud-demo-eureka-server</module>
@@ -36,5 +35,6 @@
     <module>spring-cloud-demo-config-server</module>
     <module>spring-cloud-demo-config-client</module>
     <module>spring-cloud-demo-api-gateway</module>
+    <module>spring-boot-demo-security</module>
   </modules>
 </project>
