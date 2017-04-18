@@ -1,3 +1,4 @@
+# release v0.0.4
 ## 说明
 该项目是一个Spring cloud学习的简单Demo,详细目录说明如下：
 - `config-repo` spring cloud config 远程仓库
