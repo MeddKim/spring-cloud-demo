@@ -19,5 +19,6 @@ public class TestController {
     @RequestMapping(value = "/from")
     public String from(){
         return this.from;
+
     }
 }
