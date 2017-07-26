@@ -1,4 +1,4 @@
-   server:
+server:
   port: 8081
 
 ##druid数据连接池
