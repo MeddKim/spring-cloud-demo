@@ -2,9 +2,9 @@ spring:
   application:
     name: ribbon-consumer
 server:
-  port: 8771
+  port: 8301
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://peer1:8111/eureka/,http://peer2:8112/eureka/
 

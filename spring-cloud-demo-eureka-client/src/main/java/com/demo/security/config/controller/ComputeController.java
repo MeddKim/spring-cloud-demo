@@ -23,6 +23,14 @@ public class ComputeController {
     @Autowired
     private DiscoveryClient client;
 
+    /**
+     * 该方法有完成两项工作：
+     *  1. 计算url中传入的参数的和
+     *  2. 打印DiscoveryClient基本信息
+     * @param a
+     * @param b
+     * @return
+     */
     @RequestMapping(value = "/add",method = RequestMethod.GET)
     public Integer add(@RequestParam Integer a,@RequestParam Integer b){
         ServiceInstance instance = client.getLocalServiceInstance();
@@ -30,4 +38,5 @@ public class ComputeController {
         logger.info("/add , host"+instance.getHost()+", service_id:"+instance.getServiceId()+", result:"+r);
         return r;
     }
+
 }

@@ -15,7 +15,7 @@ spring:
 #          search-locations: file:F:/properties 使用本地文件位置
 
 server:
-  port: 8881
+  port: 8601
 
 #############################################
 # 访问git配置文件规则：

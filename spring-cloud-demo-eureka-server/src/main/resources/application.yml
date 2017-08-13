@@ -1,3 +1,6 @@
- spring:
+spring:
   profiles:
-    active: peer2
+    active: peer1
+eureka:
+  server:
+    enable-self-preservation: false  #本地调试时用于关闭保护机制，生产环境请勿使用

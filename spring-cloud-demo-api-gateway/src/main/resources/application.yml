@@ -2,7 +2,7 @@ spring:
   application:
     name: api-gateway
 server:
-  port: 8661
+  port: 8501
 zuul:
   routes:
     api-a-url:
@@ -14,6 +14,7 @@ zuul:
     api-b:
       path: /api-b/**
       serviceId: ribbon-consumer
+
 
 eureka:
   client:
