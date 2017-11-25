@@ -10,7 +10,7 @@ spring:
           uri: https://github.com/MeddKim/spring-cloud-demo
           search-paths: config-repo
           username: meddkim
-          password: wzy19920323
+          password: *******
 #        native:
 #          search-locations: file:F:/properties 使用本地文件位置
 
