@@ -6,7 +6,8 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://peer1:8111/eureka/,http://peer2:8112/eureka/
+#      defaultZone: http://peer1:8111/eureka/,http://peer2:8112/eureka/
+      defaultZone: http://peer1:8111/eureka/
 
 
 # 以下配置了随机port随机eureka.instance.instance-id但是这样配置导致ribbon无法在通过compute-service访问

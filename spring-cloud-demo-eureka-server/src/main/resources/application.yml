@@ -1,6 +1,8 @@
 spring:
   profiles:
     active: peer1
+  application:
+    name: eureka-server
 eureka:
   server:
     enable-self-preservation: false  #本地调试时用于关闭保护机制，生产环境请勿使用
